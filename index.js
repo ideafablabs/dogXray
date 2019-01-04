@@ -28,21 +28,21 @@ if(variant == 'prod'){
   
   raspi.init(() => {
     input04 = new gpio.DigitalInput({
-        pin: 'GPIO04',
+        pin: 'GPIO4',
         pullResistor : gpio.PULL_UP
     });
     
     console.log("Intialized GPIO04 with values : " + input04.read());
 
     input05 = new gpio.DigitalInput({
-        pin: 'GPIO05',
+        pin: 'GPIO5',
         pullResistor : gpio.PULL_UP
     });
     
     console.log("Intialized GPIO05 with values : " + input05.read());      
 
     input06 = new gpio.DigitalInput({
-        pin: 'GPIO06',
+        pin: 'GPIO6',
         pullResistor : gpio.PULL_UP
     });
     
