@@ -1,0 +1,20 @@
+{
+	"name": "dogxray",
+	"version": "1.1.0",
+	"description": "Node with Socket GUI for the Children's musems dog Xray exihibit",
+	"main": "idex.js",
+	"scripts": {
+		"dev": "rm -rf node_modules && npm install --only=dev && node index.js dev",
+		"prod": "rm -rf node_modules && npm install && node index.js prod"
+	},
+	"author": "Idea Fab Labs",
+	"license": "ISC",
+	"dependencies": {
+		"raspi": "^5.0.2",
+		"raspi-gpio": "^6.0.0"
+	},
+	"devDependencies": {
+		"express": "^4.16.3",
+		"socket.io": "^2.1.1"
+	}
+}

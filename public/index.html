@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="software">
+      <div class="xray-display"><img src="images/FrankinDoggie-10k.jpg" /></div>
+      <div class="xray-setting"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+      var socket = io();
+      socket.on('detection', function(msg){
+        console.log("Message: " + msg);
+        picture = document.getElementsByClassName("xray-display")[0];
+        if(msg == 17){
+             picture.style.backgroundImage = "url(../images/1.jpg)";
+        }
+        else if(msg == 22){
+             picture.style.backgroundImage = "url(../images/4.png)";
+        }
+        else if(msg == 23){
+             picture.style.backgroundImage = "url(../images/2.jpeg)";
+        }
+        else if(msg == 24){
+             picture.style.backgroundImage = "url(../images/5.jpg)";
+        }
+        else if(msg == 27){
+             picture.style.backgroundImage = "url(../images/3.jpg)";
+        }
+      });
+    </script>
+  </body>
+</html>
