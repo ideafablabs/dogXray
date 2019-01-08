@@ -9,3 +9,7 @@ These reed switches are attached to a Raspberry Pi's GPIO and runs a node server
 ## Setup
 
 *coming soon*
+
+## Issues
+
+* The raspberry pi web browser (chromium) cannot load larger image files from the local directory (4MB) we will have to go back to seperate images for each area. 
