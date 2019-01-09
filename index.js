@@ -4,7 +4,7 @@ const http = require('http').Server(app);
 const io = require('socket.io')(http);
 
 
-console.log("Initialing Raspberry Pi Librarys and GPIO")
+console.log("Initialing Raspberry Pi Librarys and GPIO");
 const raspi = require('raspi');
 const gpio = require('raspi-gpio');
   
