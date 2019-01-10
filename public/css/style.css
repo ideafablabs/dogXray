@@ -12,13 +12,12 @@ body {
 
 .xray-display {
     width: 80%;
-    background: url('../images/FrankinDoggie-10k.jpg') no-repeat;
+    background: url('../images/FrankinDoggie-blank.jpg') no-repeat;
     overflow: hidden;
 }
 
 .xray-display img {
-    width: 500%;
-    transform: translate(-11%, -18%); /* This is for  the head*/
+    width: 100%;
 }
 
 .xray-setting {
