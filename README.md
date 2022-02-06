@@ -1,4 +1,4 @@
-# Dog X-ray Simulation
+# 🐾Dog X-ray Simulation
 ### The Chico Children's Musuem Veterinarian Dog X-ray Exhibit 
 ### by Idea Fab Labs
 
